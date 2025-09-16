@@ -1,0 +1,83 @@
+/* Google Fonts - Exemplo com a fonte 'Poppins' */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Variáveis de Cor (Customização do Tema) */
+:root {
+    --primary-color: #007bff; /* Azul primário do Bootstrap */
+    --secondary-color: #6c757d; /* Cinza secundário */
+    --light-green: #e9f5e9; /* Verde claro para fundos suaves */
+    --dark-text: #343a40; /* Texto escuro */
+    --base-font: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--base-font);
+    color: var(--dark-text);
+}
+
+/* Estilização da Navbar */
+.navbar-brand {
+    color: var(--primary-color) !important;
+}
+
+/* Seção Hero */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    min-height: 400px;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+}
+
+/* Customização de Botões */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 10px 25px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Customização de Cards */
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+}
+
+/* Customização do Acordeão */
+.accordion-button {
+    font-weight: 600;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: var(--primary-color);
+}
