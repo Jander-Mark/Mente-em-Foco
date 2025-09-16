@@ -14,7 +14,7 @@ O tema escolhido foi **"Recursos para Saúde Mental"**, buscando criar um espaç
 
 Você pode acessar a versão ao vivo do projeto através do link abaixo:
 
-**[https://[SEU-LINK-AQUI].vercel.app/](https://[SEU-LINK-AQUI].vercel.app/)**
+**[https://mente-em-foco-fatec.netlify.app]**
 
 *(Substitua o link acima pelo link gerado no Vercel ou Netlify)*
 
