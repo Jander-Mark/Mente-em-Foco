@@ -46,24 +46,11 @@ Você pode acessar a versão ao vivo do projeto através do link abaixo:
 -   **GitHub:** Para versionamento de código.
 -   **Vercel/Netlify:** Para o deploy e hospedagem do site.
 
-## ⚙️ Como Executar o Projeto Localmente
-
-Este é um projeto web estático, não necessitando de um servidor complexo para ser executado.
-
-1.  Clone este repositório:
-    ```bash
-    git clone [https://github.com/](https://github.com/)[SEU-USUARIO]/[NOME-DO-REPOSITORIO].git
-    ```
-2.  Navegue até o diretório do projeto:
-    ```bash
-    cd [NOME-DO-REPOSITORIO]
-    ```
-3.  Abra o arquivo `index.html` no seu navegador de preferência.
 
 ## 👥 Equipe
 
 | Nome               | GitHub                               |
 | ------------------ | ------------------------------------ |
-| [Jander Mark]  | [https://github.com/usuario-aluno-1] |
-| [Kleber Souza]  | [https://github.com/usuario-aluno-2] |
-| [Matheus Felix]  | [https://github.com/usuario-aluno-3] |
+| [Jander Mark]  | [https://github.com/Jander-Mark/] |
+| [Kleber Souza]  | [https://github.com/] |
+| [Matheus Felix]  | [https://github.com/] |
