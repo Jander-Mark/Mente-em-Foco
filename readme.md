@@ -16,7 +16,6 @@ Você pode acessar a versão ao vivo do projeto através do link abaixo:
 
 **[https://mente-em-foco-fatec.netlify.app]**
 
-*(Substitua o link acima pelo link gerado no Vercel ou Netlify)*
 
 ## ✨ Funcionalidades
 
@@ -26,16 +25,6 @@ Você pode acessar a versão ao vivo do projeto através do link abaixo:
 -   **Acessibilidade e Privacidade:** Páginas dedicadas com declarações sobre as boas práticas adotadas no projeto.
 -   **Interface Limpa:** Foco em uma experiência de usuário calma, com uma paleta de cores suaves e navegação intuitiva.
 
-## 📸 Screenshots
-
-*(Sugestão: Tire prints do seu site e adicione aqui para deixar o README mais visual!)*
-
-**Página Inicial**
-![Página Inicial](caminho/para/sua/imagem_home.png)
-
-**Versão Mobile**
-![Versão Mobile](caminho/para/sua/imagem_mobile.png)
-
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -44,7 +33,7 @@ Você pode acessar a versão ao vivo do projeto através do link abaixo:
 -   **Bootstrap 5:** Como principal framework para layout responsivo e componentes interativos.
 -   **Google Fonts:** Para a tipografia do projeto.
 -   **GitHub:** Para versionamento de código.
--   **Vercel/Netlify:** Para o deploy e hospedagem do site.
+-   **Netlify:** Para o deploy e hospedagem do site.
 
 
 ## 👥 Equipe
@@ -52,5 +41,5 @@ Você pode acessar a versão ao vivo do projeto através do link abaixo:
 | Nome               | GitHub                               |
 | ------------------ | ------------------------------------ |
 | [Jander Mark]  | [https://github.com/Jander-Mark/] |
-| [Kleber Souza]  | [https://github.com/] |
-| [Matheus Felix]  | [https://github.com/] |
+| [Kleber Souza]  | [https://github.com/KleberSouzzaa] |
+| [Matheus Felix]  | [https://github.com/Mateus-mfo] |
