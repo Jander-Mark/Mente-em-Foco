@@ -6,7 +6,7 @@
 
 > Projeto acadêmico desenvolvido para a disciplina de Programação Web, ministrada pelo Prof. M.Sc. Marcos Roberto de Moraes na Fatec Mogi Mirim - Arthur de Azevedo.
 
-O "Mente em Foco" é um site estático criado como projeto final para a disciplina, com o objetivo de aplicar os conhecimentos de HTML, CSS e o framework Bootstrap na construção de uma aplicação web responsiva.
+O "Mente em Foco" é um site estático criado como projeto para a disciplina, com o objetivo de aplicar os conhecimentos de HTML, CSS e o framework Bootstrap na construção de uma aplicação web responsiva.
 
 O tema escolhido foi **"Recursos para Saúde Mental"**, buscando criar um espaço digital acolhedor e com responsabilidade social, que ofereça informações úteis, dicas de bem-estar e links para ajuda profissional, sempre com ênfase em privacidade e acessibilidade.
 
