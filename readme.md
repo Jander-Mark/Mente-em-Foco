@@ -42,4 +42,4 @@ Você pode acessar a versão ao vivo do projeto através do link abaixo:
 | ------------------ | ------------------------------------ |
 | [Jander Mark]  | [https://github.com/Jander-Mark/] |
 | [Kleber Souza]  | [https://github.com/KleberSouzzaa] |
-| [Matheus Felix]  | [https://github.com/Mateus-mfo] |
+| [Mateus Felix]  | [https://github.com/Mateus-mfo] |
