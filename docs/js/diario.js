@@ -6,6 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
         let selectedMood = null;
         let moodChart;
 
+        // --- Correção para a interação do modo escuro com o gráfico ---
+        // 1. IMPORTANTE! Detecta se o modo escuro está ativo
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        const gridColor = isDarkMode ? 'rgba(255, 255, 255, 0.1)' : 'rgba(0, 0, 0, 0.1)';
+        const textColor = isDarkMode ? '#e0e0e0' : '#343a40';
+
         // Carrega dados do localStorage
         const moodData = JSON.parse(localStorage.getItem('moodTrackerData')) || {};
 
@@ -41,6 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         y: {
                             beginAtZero: true,
                             ticks: {
+                                // --- correção para o modo escuro com o gráfico ---
+                                // 2. Aplica a cor de texto dinâmica aos números e legendas do eixo Y
+                                color: textColor,
                                 callback: function(value, index, values) {
                                     switch(value) {
                                         case 5: return '😄 Feliz';
@@ -51,6 +60,30 @@ document.addEventListener('DOMContentLoaded', () => {
                                         default: return '';
                                     }
                                 }
+                            },
+                            // --- correção do modo escuro com o gráfico ---
+                            // 3. Aplica a cor dinâmica às linhas de grade do eixo Y
+                            grid: {
+                                color: gridColor
+                            }
+                        },
+                        x: {
+                             // --- correção do modo escuro ---
+                            // 4. Aplica a cor de texto dinâmica às datas do eixo X
+                            ticks: {
+                                color: textColor
+                            },
+                            grid: {
+                                color: gridColor
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            // --- correção do modo escura ---
+                            // 5. Aplica a cor de texto dinâmica à legenda principal do gráfico
+                            labels: {
+                                color: textColor
                             }
                         }
                     },
@@ -75,11 +108,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         saveButton.addEventListener('click', () => {
             if (selectedMood) {
-                const today = new Date().toLocaleDateString('pt-BR'); // Formato DD/MM/AAAA
+                const today = new Date().toLocaleDateString('pt-BR');
                 moodData[today] = selectedMood;
                 localStorage.setItem('moodTrackerData', JSON.stringify(moodData));
                 alert('Humor salvo com sucesso!');
-                updateChart();
+                // Recarrega a página para garantir que o tema do gráfico seja aplicado corretamente
+                location.reload(); 
             } else {
                 alert('Por favor, selecione um humor.');
             }
