@@ -81,3 +81,80 @@ body {
     color: white;
     background-color: var(--primary-color);
 }
+
+/* Estilos para o Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .bg-light {
+    background-color: #1e1e1e !important;
+}
+
+.dark-mode .navbar-brand,
+.dark-mode .nav-link {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+.dark-mode .card-title,
+.dark-mode .card-text,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode .lead,
+.dark-mode p {
+    color: #e0e0e0;
+}
+
+.dark-mode .list-group-item {
+    background-color: #2f2f2f;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+.dark-mode .list-group-item h5, .dark-mode .list-group-item strong {
+    color: #fff;
+}
+
+.dark-mode .accordion-item {
+    background-color: #1e1e1e;
+    border-color: #333;
+}
+
+/* ===== REGRA ADICIONADA PARA O TEXTO DAS DICAS ===== */
+.dark-mode .accordion-body {
+    color: #dcdcdc;
+}
+/* ================================================ */
+
+.dark-mode .accordion-button {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+.dark-mode .accordion-button:not(.collapsed) {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Estilos para a Ferramenta de Respiração */
+.breathing-container {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.breathing-circle {
+    background-color: var(--primary-color);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
