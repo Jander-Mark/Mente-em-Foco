@@ -157,4 +157,53 @@ body.dark-mode {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    transition: transform 1s ease-in-out;
+}
+
+/* === NOVOS ESTILOS PARA FERRAMENTAS INTERATIVAS === */
+
+/* Quiz */
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.dark-mode .quiz-container {
+    background-color: #1e1e1e;
+}
+
+/* Diário de Humor */
+.mood-selector .mood-btn {
+    font-size: 2.5rem;
+    border: 2px solid transparent;
+    transition: transform 0.2s;
+    background: none;
+}
+
+.mood-selector .mood-btn:hover {
+    transform: scale(1.1);
+}
+
+.mood-selector .mood-btn.selected {
+    border-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+/* Player de Sons */
+#sound-player {
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.dark-mode #sound-player {
+     background-color: #1e1e1e;
+}
+
+#volume-slider {
+    width: 150px;
+    vertical-align: middle;
 }
