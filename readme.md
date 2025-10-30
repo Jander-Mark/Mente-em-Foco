@@ -14,7 +14,7 @@ O tema escolhido foi **"Recursos para Saúde Mental"**, buscando criar um espaç
 
 Você pode acessar a versão ao vivo do projeto através do link abaixo:
 
-**[https://mente-em-foco-fatec.netlify.app]**
+**[https://mente-em-foco-fatec.netlify.app]** ou **[https://jander-mark.github.io/Mente-em-Foco/index.html]**
 
 
 ## ✨ Funcionalidades
